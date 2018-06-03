@@ -1,0 +1,620 @@
+html{height: 100%;}
+
+body{
+	background-color: #fff;
+	margin: 0;
+	width: 100%
+}
+
+ol, ul {list-style-type: none;}
+
+a, a:hover {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+
+header{
+	position:absolute;
+	padding: 5px 0;
+	top: 13px;
+	width: 100%;
+	font-family: PTSans, sans-serif;
+	z-index: 2;
+	overflow: hidden;
+}
+
+
+.container{
+	max-width: 1025px;
+	margin: auto;
+	position: relative;
+}
+
+.underline{
+	max-width: 1025px;
+	height: 4px;
+	background-color: #100805;
+	box-shadow: 0 2px 4px rgba(255, 212, 157, .31);
+	margin: 85px auto;
+}
+
+.logo{
+	float: left;
+}
+
+.salon-shop{
+	margin: 15px 0 0 115px;
+	float:left;
+}
+
+.shop{
+	color: #000;
+	text-decoration: underline;
+	margin-left: 30px;
+	color: #fff;
+	font-size: 19px;
+
+}
+
+.salon{
+	border-radius: 40px;
+	background-color: #fff;
+	padding: 12px 45px;
+	font-size: 19px;
+	color: #000;
+}
+
+.contacts-entry{
+	float:right;
+}
+
+.contacts{
+	float: left;
+	margin-right: 21px;
+}
+
+.location{
+	color: #fff;
+	font-size: 14px;
+}
+
+.phone{
+	color:#ffd49d;
+	font-size: 18px;
+	font-family: PTSansBold;
+}
+
+.entry{
+	padding: 15px 20px;
+	background-color: #ffd49d;
+	font-size: 16px;
+	border-radius: 36px;
+	color: #000;
+	font-family: PTSans;
+	font-weight: 400;
+	cursor: pointer;
+	display: inline-block;
+}
+
+.pencil-icon{
+	width: 13px;
+	height: 13px;
+	background:  url(../img/pencil.png);
+	margin-right: 10px;
+	display: inline-block;
+}
+
+
+
+
+
+#tagline{
+	width: 100%;
+	position: relative;
+	background: #222 url(../img/bg-header1.jpg)  no-repeat center bottom;
+	background-size: cover;
+	overflow: hidden;
+}
+
+
+.human{
+	position: relative;
+	background:  url(../img/humen-bg.png) no-repeat center top;
+	height: inherit;
+	width: 1025px;
+	height: 648px;
+	top: 33px;
+	left: -100px;
+}
+
+.rightblock{
+	position: absolute;
+	max-width: 450px;
+	float: right;
+	top: 210px;
+	right: 63px;
+	text-align: right;
+}
+
+.tagline-span{
+	font-size: 72px;
+	color: #ffd49d;
+	margin: 0;
+	font-family: BebasNeueBold, sans-serif;
+}
+
+.services{
+	margin: 50px 0;
+}
+
+.whitebebas{
+	color: #fff;
+	font-family: BebasNeue, sans-serif;
+	font-size: 30px
+}
+
+.whitePTsans{
+	color: #fff;
+	font-family: PTSans, sans-serif;
+	font-size: 18px;
+}
+
+
+.onlineentry{
+	padding: 15px 64px;
+}
+
+
+
+
+
+#about{
+	position: relative;
+	width: 100%;
+	background-color: #f2e5c7;
+	top: -20px;
+	overflow:hidden;
+}
+#about .container{
+	padding: 50px;
+}
+#about .container .h{
+	text-align: center;
+	margin-bottom: 40px;
+}
+.bebas-bold{
+	color: #000;
+	margin: 0;
+	font-family: BebasNeueBold, sans-serif;
+	font-size: 48px;	
+}
+#about .container h3{
+	color: #000;
+	margin: 0;
+	font-family: BebasNeueBold, sans-serif;
+	font-size: 30px;
+	position: relative;
+}
+.article{
+	max-width: 895px;
+	margin-left: 60px;
+	margin-bottom: 50px;
+}
+.article span{
+	font-size: 16px;
+	font-family: PTSans, sans-serif;
+	margin-bottom: 20px;
+	display: inline-block;
+}
+
+.bg{
+	position: absolute;
+}
+
+.bg-brush{
+	width: 212px;
+	height: 267px;
+	background: url(../img/bg-brush.png);
+	right: -90px;
+	bottom: -60px;
+
+}
+
+.bg-cream{
+	width: 172px;
+	height: 177px;
+	background: url(../img/bg-cream.png);
+	top:60px;
+	left: -100px;
+}
+
+.bg-scissors{
+	width: 363px;
+	height: 303px;
+	background: url(../img/bg-scissors.png);
+	bottom: -70px;
+	left: -135px;
+}
+
+.bg-razo{
+	width: 308px;
+	height: 209px;
+	background: url(../img/new_razo-bg.png);
+	top: 0;
+	left: 905px;
+}
+
+
+
+
+
+#content{
+	position: relative;
+	background-color: #fff;
+	top: -20px;
+	box-sizing: border-box;
+}
+
+
+.this{
+	position: relative;
+	font-size: 23px;
+	font-family: PTSans, sans-serif;
+	color: #241912;
+	max-width: 685px;
+	text-align: center;
+	margin: -50px auto 50px;
+	font-weight: 400;
+}
+
+
+.slick-container{
+	position: relative;
+	max-width: 927px;
+	top: -100px;
+	margin: 0 auto;
+}	
+
+.sl-elem{
+	height: 278px;
+}
+
+.img{
+	box-shadow: 2px 2px 9px 2px  rgba(148, 120, 56, .24);
+	margin: auto;
+	border: solid 6px #fff;
+	border-radius: 6px;	
+	width: 261px;
+	height: 261px;	
+}
+
+.img img{
+	width: 261px;
+	height: 261px;
+}
+
+.img a{
+	display: inline-block;
+
+}
+
+
+.price-list{
+	max-width: 696px;
+	background-color: #f2e5c7;
+	position: relative;
+	margin: 0 auto;
+	text-align: center;
+	padding: 40px 0 0;
+}
+
+.price-list .h{
+	text-align: center;
+}
+
+.price-list .h h3{
+	color: #000;
+	margin: 0;
+	font-family: BebasNeueBold, sans-serif;
+	font-size: 30px;
+}
+
+.hat-img{
+	width: 131px;
+	height: 69px;
+	background: url(../img/hat.png);
+	margin: -70px auto 20px;
+}
+
+.price-list ul{
+	text-align: left;
+	padding: 0;
+	margin-top: 50px;
+}
+
+
+.price-list li{
+	max-width: 481px;
+	margin: 0 auto;
+	padding: 0 27px 8px 27px;
+	margin-top: 8px;
+	border-bottom: solid 2px #e2d4b3;
+	font-family: BebasNeueBold, sans-serif;
+	font-size: 21px;
+}
+
+.price-list li span{
+	float: right;
+}
+
+.price-list .onlineentry{
+	background-color: #241912;
+	color: #fff;
+	border: 4px solid #fff;
+	float: none;
+	top: 30px;
+	position: relative;
+}
+
+.price-list .pencil-icon{
+	background: url(../img/pencil-white.png);
+}
+
+
+
+.cosmetics-masters-map{
+	text-align: center;
+	position: relative;
+
+}
+
+.cosmetic-firms, .masters{
+	margin: 25px auto;
+	max-width: 910px;
+}
+
+.firm{
+	height: 77px;
+	display: flex !important;
+}
+
+.firm img{
+	display: inline-block;
+    margin: auto;
+    vertical-align: middle;
+}
+
+.cosmetics-masters-map .this{
+	top: 0;
+	max-width: 750px;
+	margin: 50px auto;
+}
+
+.master-img{
+	display: inline-block;
+	color: #241912;
+	font-family: PTSans, sans-serif;
+	font-size: 15px;
+	text-align: left;
+	margin: auto 22px;
+}
+
+
+.master-img h2{
+	font-size: 26px;
+	font-family: BebasNeueBold, sans-serif;
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+
+.master-img img{
+	width: 179px;
+}
+
+.cosmetics-masters-map .bebas-bold{
+	margin-top: 70px;
+}
+
+.contacts-phone p{
+	font-size: 13px;
+	font-family: PTSans, sans-serif;
+	color: #b4956d;
+	margin-top: 0;
+	margin-bottom: 40px;
+}
+
+.contacts-phone .p1{
+	font-size: 18px;
+	color: #241912;
+	margin-bottom: 0;
+	margin-top: 30px;
+}
+
+.contacts-phone .p2{
+	font-family: PTSansBold;
+}
+
+
+.map{
+	max-width: 900px;
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+
+.map .onlineentry{
+	background-color: #241912;
+	color: #fff;
+	border: 4px solid #fff;
+	margin: 0px auto;
+	float: none;
+	display: inline-block;
+	position: relative;
+	top: -35px;
+}
+
+.map .pencil-icon{
+	background: url(../img/pencil-white.png);
+}
+
+
+
+
+
+footer{
+	background:  url(../img/bg-header1.jpg);
+	padding-top: 40px;
+	font-family: PTSans, sans-serif;
+	overflow: hidden;
+	background-size: cover;
+	padding-bottom: 26px;
+}
+
+footer .container{
+	text-align: center;
+}
+
+.social h1{
+	font-family: BebasNeueBold, sans-serif;
+	color: #fff;
+	margin: 0px auto;
+	font-size: 24px;
+}
+
+.social .icons{
+	width: 197px;
+	height: 20px;
+	margin: 40px auto;
+	display: flex;
+
+}
+
+.social .icons a{
+	display: inline-block;
+	margin: 0 auto;
+
+}
+
+footer .underline{
+	position: static;
+
+}
+
+footer .header-block{
+	margin-top: 20px;
+}
+
+
+footer .bg-cream{
+	top: 0;
+	left: 1050px;
+	background: url(../img/bg-cream2.png);
+}
+
+footer .bg-scissors{
+	left: -220px;
+	top: -20px;
+	background: url(../img/bg-scissors2.png) no-repeat;
+
+}
+
+
+
+
+
+
+
+.pop-up{
+	display: none;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	background-color: rgba(241, 228, 197, 0.8);
+	z-index: 3;
+
+}
+
+.form{
+	max-width: 600px;
+	position: relative;
+	left: calc(50% - 300px);
+	top: calc(50% - 225px);
+	background-color: #fff;
+	padding: 20px 70px;
+	box-sizing: border-box;
+	text-align: center;
+	font-family: PTsans, sans-serif;
+
+}
+
+
+.form .close{
+	position: absolute;
+	top: 15px;
+	right: 20px;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+}
+
+.form .close div{
+	position: relative;
+	height: 2px;
+	background-color: #e1ca9d;
+	width: 100%;
+	top: 50%
+}
+
+
+.form .close div:first-child{
+	transform: rotate(-45deg);
+}
+
+.form .close div:last-child{
+	transform: rotate(45deg);
+	margin-top: -1px;
+}
+
+.form .bebas-bold{
+	margin-bottom: 30px;
+	margin-top: 20px;
+}
+
+
+form input,textarea {
+	display: block;
+	padding: 5px 15px;
+	width: 100%; 
+	box-sizing: border-box;
+	border: none;
+	margin: 10px auto;
+	background-color: #f6f2e9;
+	font-family: PTsans, sans-serif;
+	font-size: 16px;
+	box-shadow: 2px; 
+}
+
+form input[type="submit"]{
+	width:35%;
+	background-color: #241912;
+	color: #fff;
+	padding: 10px 15px;
+	border-radius: 5px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+form textarea{
+	overflow: auto;
+	height: 100px;
+}
+
+
+
+
+
+
+
+

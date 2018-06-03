@@ -1,0 +1,98 @@
+@media screen and (max-width: 1040px){
+	.salon-shop{
+		display: none;
+	}
+
+	#tagline{
+		padding-bottom: 40px;
+	}
+
+
+	.underline{
+		margin: 85px 10px 0;
+	}
+}
+
+@media screen and (max-width: 925px){
+	.masters{
+		max-width: 645px;
+	}
+}
+
+
+
+@media screen and (max-width: 860px){
+
+	#about .container{
+		padding: 50px 20px;
+	}
+
+	.contacts-entry{
+		margin-right: 10px;
+	}
+
+	.entry{
+		float: none;
+		margin: 0 auto;
+	}
+
+	.human {
+		display:none;
+	}
+
+	.rightblock{
+		position: relative;
+		float: none;
+		right: 0;
+		top: 0;
+		text-align: center;
+		margin: 200px auto  50px;
+	}
+
+}
+
+@media screen and (max-width: 640px){
+	.form {
+		left: 0;
+		padding: 20px 30px;
+	}
+}
+
+@media screen and (max-width:600px){
+	.logo {
+		float: none;
+		text-align: center;
+
+	}
+
+
+	.contacts-entry{
+		float: none;
+		margin: 6px auto;
+		text-align: center;
+	}
+
+	.contacts{
+		float: none;
+		margin: 0 auto;
+	}
+
+	.entry{
+		float: none;
+		margin-top: 30px;
+
+	}
+
+
+	.human {
+		display:none;
+	}
+
+	.underline{
+		margin: 20px 10px 0;
+	}
+
+	.rightblock{
+		margin: 300px auto  50px;
+	}
+}

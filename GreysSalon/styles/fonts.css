@@ -1,0 +1,20 @@
+@font-face{
+	font-family: PTSans;
+	src: url(../fonts/PTSansRegular.ttf);
+}
+
+@font-face{
+	font-family: PTSansBold;
+	src: url(../fonts/PTSansBold.ttf);
+}
+
+@font-face{
+	font-family: BebasNeueBold;
+	src: url(../fonts/BebasNeueBold.ttf);
+}
+
+@font-face{
+	font-family: BebasNeue;
+	src: url(../fonts/BebasNeueRegular.ttf);
+}
+

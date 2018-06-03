@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<script src = 'scripts/levels.js' defer></script>
+		<script src = 'scripts/snake.js' defer></script>
+		<script src = 'scripts/gui.js' defer></script>
+		<link href = 'styles/style.css' rel = 'stylesheet'>
+		<link href = 'styles/media.css' rel = 'stylesheet'>
+		<title>Snake</title>
+	</head>
+	<body>
+		<div id = 'field'>
+			<p>Pause on "ESC"</p>
+			<div class = 'field'></div>
+			<div class = 'lifes-block'>
+				<div class = 'life'></div>
+				<div class = 'life'></div>
+				<div class = 'life'></div>
+			</div>
+		</div>
+		<div id = 'start-menu'>
+			<h1>Snake</h1>
+			<div class = 'difficalt'>
+			<p> Difficulty level</p>
+				<form name = 'difficulty_level'>
+					<label>
+						Easy<input type = 'radio' name ='level' checked value = '300'> 
+					</label>			      
+					<label>                   
+						Normal<input type = 'radio' name ='level' value = '250'> 
+					</label>			      
+					<label>                   
+						Hard<input type = 'radio' name ='level' value = '200'> 
+					</label>			      
+					<label>                   
+						Unreal<input type = 'radio' name ='level' value = '150'> 
+					</label>			
+				</form>
+				<a class = 'button'>START</a>
+			</div>
+			<h1 class = 'level-info'>Level <span>1</span> </h1>
+			<div class = 'next-level'>
+				<h1>Level <span>1</span> complete</h1>
+				<a class = 'button'>Next level  ></a>
+			</div>
+			<div class = 'win-massage'>
+				<h1>Congratulation<br>
+					You Win!</h1>
+				<a class = 'button'> < Start menu</a>
+			</div>			
+			<div class = 'lose-massage'>
+				<h1>You Lose!</h1>
+				<a class = 'button'> < Start menu</a>
+			</div>
+		</div>
+		<div id = 'pause'>
+			<div class = 'pause-container'>
+				<h1>Paused</h1>
+				<a class = 'button'>Continue</a>
+			</div>
+		</div>
+	</body>
+</html>

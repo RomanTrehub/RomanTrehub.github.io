@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src = 'MineSweeper.js' defer></script>
+		<link href = 'styles.css' rel = 'stylesheet'>
+		<title>Mine Sweeper</title>
+	</head>
+	<body>
+		<div id = 'field'>
+			<div class = 'container'>
+				<div class = "mineSweeper-container">
+					<div class = 'menu'>
+						<div class = 'mine-amount'>100</div>
+						<div class = "end-game-buttons">
+							<a class = "restart-button"></a>
+							<a class = "change-difficult">Change Difficulty</a>
+						</div>							
+						<div class = 'timer'>0000</div>
+					</div>
+					<div class = 'field'></div>
+				</div>
+			</div>	
+		</div>
+		<div id = 'start-menu'>
+			<h1>MineSweeper</h1>
+			<div class = 'difficult'>
+			<p> Difficulty level</p>
+				<form name = 'difficulty_level'>
+					<label>
+						Beginner<input type = 'radio' name ='level' checked value = '81,10'> 
+					</label>			      
+					<label>                   
+						Amateur<input type = 'radio' name ='level' value = '256, 40'> 
+					</label>			      
+					<label>                   
+						Profi<input type = 'radio' name ='level' value = '484, 100'> 
+					</label>			      		
+				</form>
+				<a class = 'button'>START</a>
+			</div>
+		</div>
+	</body>
+</html>

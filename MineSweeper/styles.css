@@ -1,0 +1,176 @@
+body{
+	margin: 0;
+	font-size: 20px;
+}
+
+#field{
+	position: absolute;
+	display: none;
+
+}
+
+.container{
+	position: fixed;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+}
+
+
+.timer, .mine-amount{
+	width: 65px;
+	height: 40px;
+	text-align: center;
+	border: 1px solid black;
+	color: red;
+	font-size: 30px;
+	font-weight: 600;
+	box-sizing: border-box;
+}
+
+
+.menu{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 2px;
+	cursor: default;
+}
+
+.end-game-buttons{
+	width: 142px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	visibility: hidden;
+}
+
+
+
+
+.restart-button, .change-difficult{
+	text-align: center;
+	border: 1px solid black;
+	box-sizing: border-box;
+	display: inline-block;	
+}
+
+
+.restart-button{
+	width: 40px;
+	height: 40px;
+	background-image: url(img/replay.png);
+	background-size: 40px auto;
+}
+
+.change-difficult{
+	width: 98px;
+	font-size: 18px;
+	height: 40px;
+	font-weight: 600;
+	line-height: 1;
+}
+
+.field{
+	border: solid 1px #000;
+	border-left: none;
+	border-top: none;
+}
+
+#start-menu{
+	width: 100%;
+	height: 100%;
+	display: block;
+	position: fixed;
+	background-color: #FFEF40;
+}
+
+h1{
+	text-align: center;
+	position: relative;
+	margin:  0 auto;
+	top: calc(50% - 220px);
+}
+
+.cell{
+	width: 30px;
+	height: 30px;
+	border: solid 1px #000;
+	border-right: none;
+	border-bottom: none;
+	float: left;
+	background-color: #d1d6d4;
+	font-size: 0;
+	text-align: center;
+	font-weight: 600;
+	cursor: default;
+}
+
+.open{
+	font-size: 23px;
+	background-color: #fff;
+}
+
+.question{
+	font-size: 23px;
+}
+
+.flag{
+	background-image: url(img/Red-Flag.png);
+	background-repeat: no-repeat;
+	background-size: 27px auto;
+	background-position: center;
+}
+
+.mine{
+	background-repeat: no-repeat;
+	background-size: 27px auto;
+	background-position: center;
+}
+
+.difficult{
+	width: 500px;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 0 40px 40px;
+	border: 2px solid black;
+	border-radius: 20px;
+	position: relative;
+	margin: auto;
+	top: calc(50% - 170px);
+}
+
+.difficult form{
+	text-align: left;
+}
+
+.difficult p{
+	font-size: 30px;
+	
+}
+
+label{
+	display: block;
+	margin: 10px 0;
+	cursor: pointer;
+}
+
+label:hover{
+	background-color: grey;
+}
+
+input{
+	float: right;
+	border: 2px solid black; 
+	padding: 5px;
+}
+
+.button{
+	display: inline-block;
+	margin: 15px;
+	padding: 7px 30px;
+	border: 1px solid black;
+	border-radius: 25px;
+	cursor: pointer;
+}
